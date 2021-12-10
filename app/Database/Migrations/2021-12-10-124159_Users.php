@@ -8,11 +8,19 @@ class Users extends Migration
 {
     public function up()
     {
-        //
+        $this->forge->addColumn('users', [
+            'id',
+            'username',
+            'email',
+            'password',
+            'address'
+        ]);
+        $this->forge->addKey('id', true);
+        $this->forge->createTable('users');
     }
 
     public function down()
     {
-        //
+        $this->forge->dropTable('users');
     }
 }
