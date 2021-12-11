@@ -4,23 +4,26 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Users extends Migration
+class Sepatu extends Migration
 {
     public function up()
     {
-        $this->forge->addColumn('users', [
-            'id',
+        $this->forge->addfield([
+            'id'  => [
+
+            ],
             'username',
             'email',
             'password',
-            'address'
+            'address'    
+
         ]);
-        $this->forge->addKey('id', true);
+        $this->forge->addkey(id, true);
         $this->forge->createTable('users');
     }
 
     public function down()
     {
-        $this->forge->dropTable('users');
+        //
     }
 }
