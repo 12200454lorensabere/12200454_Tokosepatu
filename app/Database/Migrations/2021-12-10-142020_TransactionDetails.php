@@ -8,15 +8,14 @@ class Users extends Migration
 {
     public function up()
     {
-        $this->forge->addColumn('transaction_details',[
+        $this->forge->addColumn('transaction_details', [
             'merk',
             'harga',
             'jumlah',
-            'total',
+            'total'
         ]);
-        $this->forge->addkey('transaction_details', true);
+        $this->forge->addKey('merk', true);
         $this->forge->createTable('transaction_details');
-        
     }
 
     public function down()
