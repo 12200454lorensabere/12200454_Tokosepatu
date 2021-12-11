@@ -9,13 +9,13 @@ class Sepatu extends Migration
     public function up()
     {
         $this->forge->addfield([
-            'id'  => [
+            'data produk'  => [
 
             ],
-            'username',
-            'email',
-            'password',
-            'address'    
+            'pesanan',
+            'member',
+            'user'
+               
 
         ]);
         $this->forge->addkey(id, true);
