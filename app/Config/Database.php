@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'transactions_details',
+        'database' => 'nikesepatu',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
