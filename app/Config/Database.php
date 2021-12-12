@@ -35,11 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-<<<<<<< HEAD
         'database' => 'nikesepatu',
-=======
-        'database' => 'toko sepatu',
->>>>>>> 40e6fb90a99ca00531830e6f9c2b1026021684cd
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,
