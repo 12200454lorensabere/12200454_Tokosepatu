@@ -20,6 +20,6 @@ class TransactionsDetails extends Migration
 
     public function down()
     {
-        //
+        $this->forge->dropTable('transactions_details');
     }
 }

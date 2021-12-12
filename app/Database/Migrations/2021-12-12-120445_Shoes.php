@@ -19,12 +19,12 @@ class Shoes extends Migration
 
         ]);
         $this->forge->addkey(id, true);
-        $this->forge->createTable('users');
+        $this->forge->createTable('shoes');
 
     }
 
     public function down()
     {
-        //
+        $this->forge->dropTable('shoes');
     }
 }
