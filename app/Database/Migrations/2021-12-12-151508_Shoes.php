@@ -4,25 +4,27 @@ namespace App\Database\Migrations;
 
 use CodeIgniter\Database\Migration;
 
-class Transaction extends Migration
+class Shoes extends Migration
 {
     public function up()
     {
         $this->forge->addfield([
-    
-            'harga'  => [
+            'data produk'  => [
+
             ],
-            'total',
-            'jumlah'
-            
-        
+            'pesanan',
+            'member',
+            'user'
+               
+
         ]);
         $this->forge->addkey(id, true);
-        $this->forge-createTable('user');
+        $this->forge->createTable('shoes');
+
     }
 
     public function down()
     {
-        //
+        $this->forge->dropTable('shoes');
     }
 }
