@@ -18,7 +18,6 @@
     <ul>
       <li><a href="/">home</a></li>
       <li><a href="/about">about</a></li>
-      <li><a href="#product">products</a></li>
     </ul>
   </div>
 
@@ -32,7 +31,6 @@
         <ul>
           <li><a href="/">home</a></li>
           <li><a href="/about">About</a></li>
-          <li><a href="#product">products</a></li>
         </ul>
       </div>
       <label for="check" class="mobile-menu"><i class="fas fa-bars fa-2x"></i></label>

@@ -16,13 +16,15 @@
 <section id="product">
   <div class="container">
     <h3>Products</h3>
-    <div class="col-4">
-      <a href="">
-        <img src="img/<?= $img ?>" />
-        <h2><?= $price ?></h2>
-        <span><?= $name ?></span>
-      </a>
-    </div>
+    <?php foreach ($item as $i) { ?>
+      <div class="col-4">
+        <a href="">
+          <img src="img/<?= $i['img'] ?>" />
+          <h2><?= $i['price'] ?></h2>
+          <span><?= $i['name'] ?></span>
+        </a>
+      </div>
+    <?php } ?>
 </section>
 </div>
 <?= $this->endSection(); ?>

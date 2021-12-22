@@ -7,10 +7,18 @@ class HomeController extends BaseController
     public function index()
     {
         $data = [
-
-            'name' => 'nike 01',
-            'price' => 'Rp.399.000',
-            'img' => 'img01c.jpg'
+            'item' =>
+            [
+                [
+                    'name' => 'nike 01',
+                    'price' => 'Rp.399.000',
+                    'img' => 'img01c.jpg'
+                ], [
+                    'name' => 'nike 02',
+                    'price' => 'Rp.399.000',
+                    'img' => 'img02.jpg'
+                ],
+            ],
 
         ];
 
