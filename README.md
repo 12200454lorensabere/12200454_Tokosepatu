@@ -5,5 +5,6 @@
 4. Rimpi
 5. Eric
 # cara instal
-1. git clone
-2. composer update https://github.com/12200454lorensabere/12200454_Tokosepatu.git
+1. buka cmd / git bash
+2. git clone https://github.com/12200454lorensabere/12200454_Tokosepatu.git
+3. composer update 
