@@ -3,9 +3,19 @@
 namespace App\Controllers;
 
 class HomeController extends BaseController
+
 {
+    // public function __construct()
+    //{   
+    //    $db      = \Config\Database::connect();
+    //    $builder = $db->table('sepatu');
+    //}
+
     public function index()
     {
+        // $data = [
+        //    'item' => $query = $this->builder->get()
+        //];
         $data = [
             'item' =>
             [
