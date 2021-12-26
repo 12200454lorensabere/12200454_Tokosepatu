@@ -58,7 +58,7 @@ class HomeController extends BaseController
                     'name' => '08',
                     'price' => 'Rp.409.000',
                     'img' => 'img08.jpg'
-                ]
+                ],
 
 
             ],
