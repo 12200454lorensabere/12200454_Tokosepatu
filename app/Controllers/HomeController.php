@@ -20,20 +20,47 @@ class HomeController extends BaseController
             'item' =>
             [
                 [
-                    'name' => 'nike 01',
-                    'price' => 'Rp.399.000',
+                    'name' => '01',
+                    'price' => 'Rp.350.000',
                     'img' => 'img01c.jpg'
                 ],
                 [
-                    'name' => 'nike 02',
-                    'price' => 'Rp.399.000',
+                    'name' => '02',
+                    'price' => 'Rp.349.000',
                     'img' => 'img02.jpg'
                 ],
                 [
-                    'name' => 'nike 03',
+                    'name' => '03',
                     'price' => 'Rp.399.000',
                     'img' => 'img03.jpg'
                 ],
+                [
+                    'name' => '04',
+                    'price' => 'Rp.409.000',
+                    'img' => 'img06.jpg'
+                ],
+                [
+                    'name' => '05',
+                    'price' => 'Rp.409.000',
+                    'img' => 'img07.jpg'
+                ],
+                [
+                    'name' => '06',
+                    'price' => 'Rp.423.000',
+                    'img' => 'asics.jpg'
+                ],
+                [
+                    'name' => '07',
+                    'price' => 'Rp.453.000',
+                    'img' => 'skechers.jpg'
+                ],
+                [
+                    'name' => '08',
+                    'price' => 'Rp.409.000',
+                    'img' => 'img08.jpg'
+                ]
+
+
             ],
 
         ];

@@ -9,18 +9,15 @@ class Shoes extends Migration
     public function up()
     {
         $this->forge->addfield([
-            'data produk'  => [
-
-            ],
+            'data produk'  => [],
             'pesanan',
             'member',
             'user'
-               
+
 
         ]);
-        $this->forge->addkey(id, true);
+        $this->forge->addkey(true);
         $this->forge->createTable('shoes');
-
     }
 
     public function down()

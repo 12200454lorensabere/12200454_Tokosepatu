@@ -9,19 +9,16 @@ class Shoes extends Migration
     public function up()
     {
         $this->forge->addfield([
-'transactions_details'  => [
-
-            ],
+            'transactions_details'  => [],
             'merk',
             'jumlah',
             'harga',
             'total'
-               
+
 
         ]);
-        $this->forge->addkey(id, true);
+        $this->forge->addkey(true);
         $this->forge->createTable('transactions_details');
-
     }
 
     public function down()
